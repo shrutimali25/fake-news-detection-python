@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv("dataset.csv")
+data = pd.read_csv("data/news.csv")
 X = data['text']
 y = data['label']
 
